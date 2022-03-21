@@ -1,0 +1,37 @@
+.countries-item {
+    display: flex;
+  }
+  
+  .countries-item input[type="radio"] {
+    opacity: 0;
+    position: fixed;
+    width: 0;
+  }
+  
+  .countries-item label {
+    display: inline-block;
+    background-color: rgba(67, 97, 238, 0.5);
+    padding: 0.5em;
+    font-family: sans-serif, Arial;
+    font-size: 14px;
+    border-radius: 6px;
+    width: 150px;
+    height: 35px;
+    text-align: left;
+    box-shadow: 1px 1px 1px 1px rgba(72, 149, 239, 0.5);
+  }
+  
+  .countries-item label:hover {
+    background-color: rgba(67, 97, 238, 0.8);
+  }
+  
+  .countries-item input[type="radio"]:focus + label {
+    background-color: rgba(67, 97, 238, 0.8);;
+    border-color: rgba(67, 97, 238, 0.8);;
+  }
+  
+  .countries-item input[type="radio"]:checked + label {
+    background-color: rgba(67, 97, 238, 0.8);;
+    border-color: rgba(67, 97, 238, 0.8);;
+  }
+  
